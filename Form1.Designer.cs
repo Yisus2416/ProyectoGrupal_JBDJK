@@ -115,6 +115,7 @@ namespace ProyectoGrupal_JBDJK
             this.nota.TabIndex = 5;
             this.nota.Text = "agregar una nota";
             this.nota.UseVisualStyleBackColor = true;
+            this.nota.Click += new System.EventHandler(this.nota_Click);
             // 
             // notasfinales
             // 

@@ -36,5 +36,10 @@ namespace ProyectoGrupal_JBDJK
         {
 
         }
+
+        private void nota_Click(object sender, EventArgs e)
+        {
+            notasfinales.Items.Add(escribirnota.Text);
+        }
     }
 }
